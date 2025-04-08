@@ -1,0 +1,10 @@
+[workspace]
+members = [".", "lib"]
+
+[package]
+name = "rust-prak11"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rust-prak11-lib = { path = "lib" }
